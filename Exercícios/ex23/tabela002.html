@@ -12,6 +12,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th{
             border: 1px solid black;
@@ -26,6 +27,17 @@
         thead,tfoot{
             background-color:gray ;
             color: white;
+        }
+        thead > tr >th {
+            position: sticky;
+            top: 0;
+            background-color: #383838;
+        }
+        tbody >tr:nth-child(odd){
+            background-color: rgba(0, 128, 0, 0.734);
+        }
+        tbody >tr:nth-child(even){
+            background-color: rgba(230, 16, 16, 0.796);
         }
         td.num{
             text-align: right;
@@ -174,5 +186,6 @@
 </tfoot>
 
     </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, minus cupiditate? Qui expedita amet velit! Dignissimos, voluptates quasi veritatis quo, esse, debitis aspernatur ipsa nam facere molestias suscipit quis error! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, excepturi voluptatem nobis cum illum quasi magnam aperiam illo natus corrupti. Assumenda facere officiis maiores blanditiis ab? Aperiam commodi neque dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloribus voluptatibus culpa unde porro quo voluptatum provident dicta sint excepturi hic consectetur rerum, tenetur maxime dignissimos corporis inventore laudantium cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta modi, perspiciatis consequuntur porro quae quas veniam distinctio, amet suscipit id provident laborum ut explicabo quam. Saepe fugiat a natus neque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nam sit, deleniti consequatur similique in, tempora repellendus quibusdam aliquid explicabo officiis? A dicta ea, reiciendis aperiam est veniam voluptatum distinctio.</p>
 </body>
 </html>
