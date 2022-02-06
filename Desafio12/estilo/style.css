@@ -67,8 +67,8 @@ section.imagem{
     background-color: rgba(26, 24, 24, 0.775);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.665);
-background-size: cover;
-background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
